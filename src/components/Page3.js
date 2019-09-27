@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default () => (
-  <Link to="/a">
+  <Link to="/">
     <div className="page third">
-      <h1>C</h1>
+      <h1>Page 3</h1>
     </div>
   </Link>
 )

@@ -56,22 +56,22 @@ table {
 // ! ******* THE MAGIC HERE MAKES ANIMATED ROUTING WORK ******* ! //
 .App {
   text-align: center;
-  position: absolute; //The position: absolute css makes the transition seamless
+  position: absolute; //The position: absolute css makes the entrance transition work
   width: 100%;
-  height: 100%;
+  min-height: 100%;
 }
 
 
 // Regular styling below:
 a,
 a:visited {
-  color: rgb(31, 182, 255);
+  color: #000000;
   cursor: pointer;
   text-decoration: none;
 }
 
 a:active {
-  color: rgb(67, 191, 253);
+  color: #333333;
   cursor: pointer;
 }
 
@@ -81,8 +81,8 @@ a:active {
   justify-content: center;
   align-items: center;
   h1 {
-    // font-family: 'Montserrat Subrayada', sans-serif;
-    font-size: 25rem;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 15rem;
     font-weight: 800;
   }
 }
