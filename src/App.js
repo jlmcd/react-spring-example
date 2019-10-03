@@ -5,6 +5,7 @@ import './App.scss'
 import Page1 from './components/Page1'
 import Page2 from './components/Page2'
 import Page3 from './components/Page3'
+import Page4 from './components/Page4'
 
 function App(props) {
   const transitions = useTransition(
@@ -25,6 +26,7 @@ function App(props) {
             <Route path="/" exact component={Page1} />
             <Route path="/2" component={Page2} />
             <Route path="/3" component={Page3} />
+            <Route path="/4" component={Page4} />
           </Switch>
         </animated.div>
       ))}

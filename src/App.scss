@@ -88,11 +88,14 @@ a:active {
 }
 
 .first {
-  background: linear-gradient(-30deg, #ffe988, #88ffcd);
+  background: linear-gradient(-60deg, #88ffcd, #ffe988);
 }
 .second {
-  background: linear-gradient(-30deg, #88ffcd, #b288ff)
+  background: linear-gradient(-60deg, #b288ff, #88ffcd)
 }
 .third {
-  background: linear-gradient(-30deg, #b288ff, #ff8888)
+  background: linear-gradient(-60deg, #ff8888, #b288ff)
+}
+.fourth {
+  background: linear-gradient(-60deg, #ffe988, #ff8888)
 }
